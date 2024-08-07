@@ -1,0 +1,21 @@
+<% @flats.each do |flat| %>
+  <article class="mb3">
+    <h2><%= link_to flat.name, flat_path(flat)%></h2>
+  </article>
+<% end %>
+
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-12">
+      <h1>All our Flats</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p>All <%= @flats.count %> flat</p>
+    </div>
+  </div>
+</div>

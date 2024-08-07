@@ -1,4 +1,7 @@
-10.times do
+Flat.destroy_all
+Review.destroy_all
+
+30.times do
   Flat.create(
     name: Faker::Address.community,            # Génère un nom de quartier ou de communauté
     address: Faker::Address.full_address,       # Génère une adresse complète
