@@ -29,6 +29,8 @@ gem "jbuilder"
 gem 'bootstrap', '~> 5.1.0'
 gem 'sassc-rails', '>= 2.1.0'
 
+gem "simple_form"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
